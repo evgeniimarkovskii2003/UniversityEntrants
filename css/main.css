@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat, sans-serif;
+    background: #f7f7f7;
+    color: #333;
+    flex-direction: column;
+}
+
+a {
+    color: #7c9ab7;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #4c6b8f;
+}
+
+p {
+    margin: 10px 0;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+    border: unset;
+    border-bottom: 2px solid #e3e3e3;
+    outline: none;
+}
+
+button {
+    padding: 10px 20px;
+    background: #4CAF50;
+    border: unset;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.2s ease-in-out;
+}
+
+button:hover {
+    background: #3e8e41;
+}
+
+.msg {
+    border: 2px solid #ffa908;
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    background: #ffd7b3;
+    color: #333;
+}
+
+.logout {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px 20px;
+    background: #b7625c;
+    border: unset;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.2s ease-in-out;
+    text-decoration: none;
+}
+.logout:hover {
+    background: #9c4a48;
+}
+.welcome-text {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.status-text {
+    font-size: 18px;
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+td {
+    background-color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f2f2f2;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.pagination a {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    text-decoration: none;
+}
+
+.pagination a:hover {
+    background-color: #f9f9f9;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: #fff;
+}
